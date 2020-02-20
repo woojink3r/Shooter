@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UFO : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class UFO : MonoBehaviour
     public GameObject projectile;
     public GameObject firepoint;
     public Vector3 firepos;
+    
+    
 
     void Update()
     {
@@ -43,6 +46,7 @@ public class UFO : MonoBehaviour
         {
             ObjectDestroyed();
         }
+            
     }
 
     public void ObjectDestroyed()
