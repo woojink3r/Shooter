@@ -36,4 +36,21 @@ public class UFO : MonoBehaviour
 
         }
     }
+    void OnCollisionEnter(Collision coll)
+    {
+        GameObject collidedWith = coll.gameObject;
+        if (collidedWith.tag == "Object")
+        {
+            ObjectDestroyed();
+        }
+    }
+
+    public void ObjectDestroyed()
+    {
+        GameObject[] tObjectArray = GameObject.FindGameObjectsWithTag("Object");
+        foreach (GameObject tGO in tObjectArray)
+        {
+            Destroy(tGO);
+        }
+    }
 }

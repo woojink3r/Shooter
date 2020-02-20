@@ -13,4 +13,14 @@ public class Laser : MonoBehaviour
         }
 
     }
+
+    void OnCollisionEnter(Collision coll)
+    {
+        GameObject collidedWith = coll.gameObject;
+        if( collidedWith.tag == "Object")
+        {
+            Destroy (collidedWith);
+            Destroy(this.gameObject);
+        }
+    }
 }

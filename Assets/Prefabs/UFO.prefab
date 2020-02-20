@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: 3359556715534575149}
   - component: {fileID: 3972743346382818131}
   - component: {fileID: 7830002427180682875}
+  - component: {fileID: -8423346258884437120}
   m_Layer: 0
   m_Name: UFO
   m_TagString: UFO
@@ -225,6 +226,19 @@ MonoBehaviour:
   projectile: {fileID: 0}
   firepoint: {fileID: 0}
   firepos: {x: 0, y: 0, z: 0}
+--- !u!135 &-8423346258884437120
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4657096389453344456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5840346335260599726
 GameObject:
   m_ObjectHideFlags: 0
