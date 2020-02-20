@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UFO : MonoBehaviour
 {
@@ -13,8 +12,6 @@ public class UFO : MonoBehaviour
     public GameObject projectile;
     public GameObject firepoint;
     public Vector3 firepos;
-    
-    
 
     void Update()
     {
@@ -37,24 +34,6 @@ public class UFO : MonoBehaviour
             Rigidbody LaserRigid = projectile.GetComponent<Rigidbody>();
             LaserRigid.velocity = Vector3.right * projectileSpeed;
 
-        }
-    }
-    void OnCollisionEnter(Collision coll)
-    {
-        GameObject collidedWith = coll.gameObject;
-        if (collidedWith.tag == "Object")
-        {
-            ObjectDestroyed();
-        }
-            
-    }
-
-    public void ObjectDestroyed()
-    {
-        GameObject[] tObjectArray = GameObject.FindGameObjectsWithTag("Object");
-        foreach (GameObject tGO in tObjectArray)
-        {
-            Destroy(tGO);
         }
     }
 }
