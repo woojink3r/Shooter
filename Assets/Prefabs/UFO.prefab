@@ -167,8 +167,12 @@ GameObject:
   - component: {fileID: 3359556715534575149}
   - component: {fileID: 3972743346382818131}
   - component: {fileID: 7830002427180682875}
+<<<<<<< HEAD
   - component: {fileID: -8423346258884437120}
   m_Layer: 10
+=======
+  m_Layer: 0
+>>>>>>> parent of 8e9f1d4... Collisions
   m_Name: UFO
   m_TagString: UFO
   m_Icon: {fileID: 0}
@@ -225,12 +229,18 @@ MonoBehaviour:
   projectile: {fileID: 0}
   firepoint: {fileID: 0}
   firepos: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!135 &-8423346258884437120
 SphereCollider:
+=======
+--- !u!1 &5840346335260599726
+GameObject:
+>>>>>>> parent of 8e9f1d4... Collisions
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 4657096389453344456}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -238,3 +248,29 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 111872435944337836}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: FirePoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &111872435944337836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5840346335260599726}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.9, y: -0.15, z: 0}
+  m_LocalScale: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+  m_Children: []
+  m_Father: {fileID: 3359556715534575149}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 8e9f1d4... Collisions

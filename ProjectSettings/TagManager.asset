@@ -7,7 +7,6 @@ TagManager:
   - UFO
   - Laser
   - FirePoint
-  - Object
   layers:
   - Default
   - TransparentFX
@@ -17,10 +16,17 @@ TagManager:
   - UI
   - 
   - 
+<<<<<<< HEAD
   - Blackhole
   - Object
   - UFO
   - Laser
+=======
+  - 
+  - 
+  - 
+  - 
+>>>>>>> parent of 8e9f1d4... Collisions
   - 
   - 
   - 

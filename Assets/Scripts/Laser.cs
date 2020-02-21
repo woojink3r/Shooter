@@ -22,6 +22,7 @@ public class Laser : MonoBehaviour
         }
 
     }
+<<<<<<< HEAD
 
     void OnCollisionEnter(Collision coll)
     {
@@ -44,4 +45,6 @@ public class Laser : MonoBehaviour
               
               
     }
+=======
+>>>>>>> parent of 8e9f1d4... Collisions
 }

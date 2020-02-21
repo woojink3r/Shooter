@@ -309,6 +309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabUFO: {fileID: 4657096389453344456, guid: fa819432dcd4077419e58c72f8db8dc2,
     type: 3}
+<<<<<<< HEAD
 --- !u!1 &974322599
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,3 +699,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bf25b1fe18f7dd48ae8b27ebb26f187, type: 3}
+=======
+>>>>>>> parent of 8e9f1d4... Collisions

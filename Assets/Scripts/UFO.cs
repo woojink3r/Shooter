@@ -39,6 +39,7 @@ public class UFO : MonoBehaviour
 
         }
     }
+<<<<<<< HEAD
     void OnCollisionEnter(Collision coll)
     {
         GameObject collidedWith = coll.gameObject;
@@ -57,4 +58,6 @@ public class UFO : MonoBehaviour
             Destroy(tGO);
         }
     }
+=======
+>>>>>>> parent of 8e9f1d4... Collisions
 }
