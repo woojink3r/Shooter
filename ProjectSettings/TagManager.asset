@@ -6,7 +6,6 @@ TagManager:
   tags:
   - UFO
   - Laser
-  - FirePoint
   layers:
   - Default
   - TransparentFX
